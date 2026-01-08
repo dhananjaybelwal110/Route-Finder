@@ -1,4 +1,4 @@
-# 🗺️ Route Finder Project using Python
+#🗺️ Route Finder Project using Python
 
 ## 📌 Project Overview
 The Route Finder Project is a Python-based application that finds all possible routes and the shortest route between two cities using graph algorithms.
@@ -7,7 +7,7 @@ It demonstrates the practical application of Data Structures and Algorithms (DSA
 This project is suitable for college submission, viva examinations, and GitHub portfolios.
 
 
-## 🎯 Objectives
+##🎯 Objectives
 - To represent cities and routes using a graph data structure
 - To find all possible paths between two cities
 - To determine the shortest path based on distance
@@ -15,7 +15,7 @@ This project is suitable for college submission, viva examinations, and GitHub p
 - To design a modular and maintainable Python project
 
 
-## 🧠 Algorithms & Concepts Used
+##🧠 Algorithms & Concepts Used
 - Graph (Adjacency List)
 - Depth First Search (DFS)
 - Backtracking
@@ -24,7 +24,7 @@ This project is suitable for college submission, viva examinations, and GitHub p
 - Dictionaries and Sets
 
 
-## ⚙️ Features
+##⚙️ Features
 - User-defined cities and routes
 - Displays all possible paths between source and destination
 - Calculates distance for each path
@@ -33,7 +33,7 @@ This project is suitable for college submission, viva examinations, and GitHub p
 - Modular file structure (easy to understand and extend)
 
 
-## 📁 Project Structure
+##📁 Project Structure
 
 Route-Finder-Project/
 │
@@ -46,7 +46,7 @@ Route-Finder-Project/
 └── README.txt
 
 
-## ▶️ How to Run the Project
+##▶️ How to Run the Project
 
 Keep sample_input.txt in the same folder as main.py.
 
@@ -59,7 +59,7 @@ Run the program:
 python main.py
 
 
-## 🧪 Sample Input
+##🧪 Sample Input
 
 5
 A
@@ -78,7 +78,7 @@ A
 D
 
 
-## 📤 Sample Output
+##📤 Sample Output
 
 ALL POSSIBLE PATHS:
 1. A → B → D | Distance: 14
@@ -93,4 +93,5 @@ Total Distance: 9
 
 ## Author
 Dhananjay Belwal
+
 
