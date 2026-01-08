@@ -6,7 +6,6 @@ It demonstrates the practical application of Data Structures and Algorithms (DSA
 
 This project is suitable for college submission, viva examinations, and GitHub portfolios.
 
----
 
 ## 🎯 Objectives
 - To represent cities and routes using a graph data structure
@@ -15,7 +14,6 @@ This project is suitable for college submission, viva examinations, and GitHub p
 - To apply core DSA concepts in a real-world problem
 - To design a modular and maintainable Python project
 
----
 
 ## 🧠 Algorithms & Concepts Used
 - Graph (Adjacency List)
@@ -25,7 +23,6 @@ This project is suitable for college submission, viva examinations, and GitHub p
 - Priority Queue (Heap)
 - Dictionaries and Sets
 
----
 
 ## ⚙️ Features
 - User-defined cities and routes
@@ -35,7 +32,6 @@ This project is suitable for college submission, viva examinations, and GitHub p
 - Clean console output
 - Modular file structure (easy to understand and extend)
 
----
 
 ## 📁 Project Structure
 
@@ -49,7 +45,6 @@ Route-Finder-Project/
 ├── sample_input.txt
 └── README.txt
 
----
 
 ## ▶️ How to Run the Project
 
@@ -63,7 +58,6 @@ sys.stdin = open("sample_input.txt")
 Run the program:
 python main.py
 
----
 
 ## 🧪 Sample Input
 
@@ -83,7 +77,6 @@ E D 4
 A
 D
 
----
 
 ## 📤 Sample Output
 
@@ -100,3 +93,4 @@ Total Distance: 9
 
 ## Author
 Dhananjay Belwal
+
