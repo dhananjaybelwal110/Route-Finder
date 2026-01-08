@@ -1,19 +1,19 @@
 # 🗺️ Route Finder Project using Python
 
 ## 📌 Project Overview
-The **Route Finder Project** is a Python-based application that finds **all possible routes** and the **shortest route** between two cities using **graph algorithms**.  
-It demonstrates the practical application of **Data Structures and Algorithms (DSA)** such as **Depth First Search (DFS)** and **Dijkstra’s Algorithm** on a weighted graph.
+The Route Finder Project is a Python-based application that finds all possible routes and the shortest route between two cities using graph algorithms.
+It demonstrates the practical application of Data Structures and Algorithms (DSA) such as Depth First Search (DFS) and Dijkstra’s Algorithm on a weighted graph.
 
-This project is suitable for **college submission, viva examinations, and GitHub portfolios**.
+This project is suitable for college submission, viva examinations, and GitHub portfolios.
 
 ---
 
 ## 🎯 Objectives
-- To represent cities and routes using a **graph data structure**
-- To find **all possible paths** between two cities
-- To determine the **shortest path** based on distance
-- To apply core **DSA concepts** in a real-world problem
-- To design a **modular and maintainable Python project**
+- To represent cities and routes using a graph data structure
+- To find all possible paths between two cities
+- To determine the shortest path based on distance
+- To apply core DSA concepts in a real-world problem
+- To design a modular and maintainable Python project
 
 ---
 
@@ -29,9 +29,9 @@ This project is suitable for **college submission, viva examinations, and GitHub
 
 ## ⚙️ Features
 - User-defined cities and routes
-- Displays **all possible paths** between source and destination
-- Calculates **distance for each path**
-- Finds the **shortest path** with minimum total distance
+- Displays all possible paths between source and destination
+- Calculates distance for each path
+- Finds the shortest path with minimum total distance
 - Clean console output
 - Modular file structure (easy to understand and extend)
 
@@ -41,30 +41,31 @@ This project is suitable for **college submission, viva examinations, and GitHub
 
 Route-Finder-Project/
 │
-├── main.py # Main entry point
-├── graph_input.py # Handles user input
-├── dfs_paths.py # DFS logic for all paths
-├── dijkstra.py # Shortest path algorithm
-├── utils.py # Utility functions
-├── sample_input.txt # Sample single input file
-└── README.md # Project documentation
-
+├── main.py
+├── graph_input.py
+├── dfs_paths.py
+├── dijkstra.py
+├── utils.py
+├── sample_input.txt
+└── README.txt
 
 ---
 
 ## ▶️ How to Run the Project
 
-### 🔹 Option 2: File Input (Recommended)
+Keep sample_input.txt in the same folder as main.py.
 
-Keep `sample_input.txt` in the same folder as `main.py`
+Add the following lines at the top of main.py:
 
-Add the following lines at the top of `main.py`:
-
-```python
 import sys
 sys.stdin = open("sample_input.txt")
 
-## Sample Input 
+Run the program:
+python main.py
+
+---
+
+## 🧪 Sample Input
 
 5
 A
@@ -82,7 +83,9 @@ E D 4
 A
 D
 
-##Sample Output
+---
+
+## 📤 Sample Output
 
 ALL POSSIBLE PATHS:
 1. A → B → D | Distance: 14
@@ -93,5 +96,7 @@ SHORTEST PATH (DIJKSTRA):
 A → C → E → D
 Total Distance: 9
 
+---
+
 ## Author
-#### Dhananjay Belwal
+Dhananjay Belwal
